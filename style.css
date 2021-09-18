@@ -1,3 +1,8 @@
+body
+{
+    text-align: center;
+}
+
 .heading
 {
     box-shadow: 5px 5px 5px rgb(252, 196, 76);
@@ -18,9 +23,47 @@
     margin-top: 20px;
 }
 
-.obj{
+.obj
+{
  font-size: 18px;
  margin-top: 5px;
  margin-bottom: 5px;
  box-shadow: 5px 5px 5px rgb(5, 141, 1)
+}
+
+.result_tag
+{
+    box-shadow: 5px 5px 5px rgb(252, 196, 76);
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+#copyright_footer
+{
+    width: 100%;
+    line-height: 3;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+canvas
+{
+    border-radius: 20px;
+    margin-top: 23px;
+    animation-name: e;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes e
+{
+    from {border: 5px solid green;}
+    to {border: 5px solid orangered;}
+
+    from {box-shadow: 5px 5px 5px green;}
+    to {box-shadow: 5px 5px 5px orangered;}
 }
